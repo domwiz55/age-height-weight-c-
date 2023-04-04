@@ -1,0 +1,8 @@
+public void PrintAgeBirthDateHeightWeight(int age, DateTime birthDate, double height, double weight)
+{
+    // Prints the age, birth date, height, and weight of a person
+    Console.WriteLine("Age: " + age);
+    Console.WriteLine("Birth Date: " + birthDate.ToString("dd/MM/yyyy"));
+    Console.WriteLine("Height: " + height + " cm");
+    Console.WriteLine("Weight: " + weight + " kg");
+}
